@@ -1,0 +1,47 @@
+@media  (min-width: 768px) {
+.RowBackground
+  {
+    background: url('pattern-background-desktop.svg');
+    background-color: var(--Primary-PaleBlue);
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+}
+
+@media  (min-width: 768px) {
+.OrderCard
+  {
+    max-width: 450px;
+  }
+}
+
+@media  (min-width: 768px) {
+button
+  {
+    padding: 10px 125px;
+  }
+}
+
+@media  (min-width: 768px) {
+.Summary
+  {
+    font-size: 18px;
+  }
+}
+
+@media  (min-width: 768px) {
+.AnnualGrid
+  {
+    padding: 10px;
+
+  }
+}
+
+@media  (min-width: 768px) {
+.AnnualImage
+  {
+  height: 45px;
+  width: 45px;
+  }
+}
+
