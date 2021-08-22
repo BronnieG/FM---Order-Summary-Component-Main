@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+:root
+{
+  --Primary-PaleBlue: hsl(225, 100%, 94%);
+  --Primary-BrightBlue: hsl(245, 75%, 52%);
+
+  --Neautral-DesatBlue: hsl(224, 23%, 55%);
+  --Neautral-DarkBlue: hsl(223, 47%, 23%);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 500;
+  color:var(--Neautral-DesatBlue);
+}
+
+h2 {
+  color: var(--Neautral-DarkBlue);
+  font-weight: 900;
+}
+
+h3 {
+  color: var(--Neautral-DarkBlue);
+  font-weight: 900;
+}
+
+.RowBackground {
+  display: flex;
+  background: url('pattern-background-mobile.svg');
+  background-color: var(--Primary-PaleBlue);
+  background-size: contain;
+	background-repeat: no-repeat;
+  max-width: 100%;
+  height: 100%;
+  padding: 70px 25px;
+  justify-content: center;
+}
+
+.OrderCard {
+  display: block;
+  max-width: 330px;
+  background-color: white;
+  text-align: center; 
+  border-radius: 25px;
+  padding: 0 0 25px 0;
+}
+
+.OCImage{
+  background: url('illustration-hero.svg');
+  background-size: cover;
+  height: 150px;
+  border-radius: 25px 25px 0px 0px;
+
+}
+
+.Summary {
+  padding: 25px 30px 0px 30px;
+
+}
+
+button {
+  background-color: var(--Primary-BrightBlue);
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 700;
+  color: white;
+  padding: 10px 70px;
+  border-radius: 10px;
+  border: solid, var(--Primary-BrightBlue);
+}
+
+button:hover
+{
+  cursor: pointer;
+  background-color: var(--Neautral-DesatBlue);
+  border-color: var(--Neautral-DesatBlue);
+  color: white;
+}
+
+.PMTButton {
+  margin: 30px;
+}
+
+.Annual{
+
+  background-color: hsl(227, 69%, 97%);
+  margin: 30px;
+  border-radius: 20px;
+}
+
+.AnnualGrid{
+  display: grid;
+  padding: 15px;
+  grid-template-columns: 60px auto 60px;
+}
+
+.AnnualImage{
+  background: url('icon-music.svg');
+  background-size: cover;
+  height: 50px;
+  width: 50px;
+  align-self: center;
+  justify-content: center;
+}
+
+.PlanPrice {
+  display: block;
+  justify-self: start;
+}
+
+.Year{
+  margin: -15px 0 0 -20px;
+}
+
+
+.Change{
+  color: var(--Primary-BrightBlue);
+  align-self: center;
+  justify-self: start;
+  text-decoration: underline;
+}
+
+.Change:hover
+{
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.Cancel{
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.Cancel:hover
+{
+  cursor: pointer;
+  color: black;
+}
